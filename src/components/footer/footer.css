@@ -1,0 +1,17 @@
+.footer {
+  background-color: #293241;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.name {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  color: white;
+}
+.name a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

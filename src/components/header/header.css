@@ -9,8 +9,7 @@
 
 .title {
   font-size: 7vw;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 900px) {

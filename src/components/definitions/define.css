@@ -1,0 +1,32 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 55vh;
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.subTitle {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 60vh;
+  }
+}
+.singleMean {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
